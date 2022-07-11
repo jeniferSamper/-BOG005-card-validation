@@ -6,11 +6,11 @@ para definir el producto final a nivel de experiencia y de interfaz.
 * Quiénes son los principales usuarios de producto.
   * La pagina esta pensada para mostrar promociones de un hotel de playa, donde los usuarios puedan realizar una reserva
 
-
 * Cuáles son los objetivos de estos usuarios en relación con tu producto.
   * Realizar una reserva del hotel escogiendo las diferentes promociones de temporada, mediante la validacion de una tarjeta de credito.
+  
 * Cómo crees que el producto que estás creando está resolviendo sus problemas.
-  *El producto muestra las promociones del hotel, les permite escoger una fecha y hacer una reserva meidante su tarjeda de credito como medio de pago.
+  * El producto muestra las promociones del hotel, les permite escoger una fecha y hacer una reserva meidante su tarjeda de credito como medio de pago.
 
 * Trabaja tu primer prototipo con papel y lápiz (blanco y negro).
   ![Prototipo a papel 1](hhttps://github.com/jeniferSamper/BOG005-card-validation/blob/main/prototipo%20papel1..jpeg)
@@ -36,14 +36,9 @@ Estos puntos los presentarás en el `README.md`.
 Debe contener lo siguiente:
 
 * Un título con el nombre de tu proyecto.
+  * Hotel: Un paraiso al mar.  
 * Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
+  * el proyecto se encarga de sitio web que muestra las promociones del hotel y permite al usuario reservar un paquete por medio de la validacion de tarjeta de credito como medio de pago.
 * La imagen final de tu proyecto.
-* Investigación UX:
-  1. Explicar quiénes son los usuarios y los objetivos en relación con el
-    producto.
-  2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
-    usuarios.
-  3. Luego colocarás la foto de tu primer prototipo en papel.
-  4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
-  5. Imagen del prototipo final.
+
 
