@@ -14,4 +14,5 @@ export function algoritmo (creditCardNumber){
   casillas.reverse();
   console.log('inverto ', casillas);
  alert('Invertido ' + casillas)
+ alert('probando github escritotio')
 }
