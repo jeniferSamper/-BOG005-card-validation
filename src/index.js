@@ -1,4 +1,4 @@
-import validator,{algoritmo } from './validator.js';
+import validator from './validator.js';
 
 console.log(validator);
 
@@ -8,6 +8,6 @@ var creditCardNumber = document.getElementById('tc')
 
 boton.onclick = function guardar(){
     creditCardNumber = creditCardNumber.value;
-    alert('el numero es' + creditCardNumber);
-    algoritmo(creditCardNumber);
+    console.log('el numero de TC es ' + creditCardNumber);
+    validator.isValid(creditCardNumber);
 }
