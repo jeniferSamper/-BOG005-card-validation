@@ -1,8 +1,10 @@
 const validator = {
   // ...
-  isValid: function creditCardNumber (creditCardNumber){
+  isValid: function algoritmoLuhn (creditCardNumber){
     var casillas = new Array();
     var suma = 0;
+    var total;
+    var valido;
     console.log('tipo de dato ingresado',typeof creditCardNumber)
 
     //guarda el numero en un array y lo invierte.
@@ -14,7 +16,7 @@ const validator = {
     console.log('inverto ', casillas);
     
     //se multiplica por dos los pares y suma los dos digitos si el numero es mayor a 9.
-    for(var i= 1; i< casillas.length ; i +=2){
+    for(var i = 1; i< casillas.length ; i +=2){
       if(casillas[i]<5){
       casillas[i] = casillas[i] * 2;
       }
@@ -23,11 +25,23 @@ const validator = {
       }
       }
       console.log('array despues de multiplicar',casillas);
-      for(var i= 0; i< casillas.length; i++){
+      for(var i = 0; i< casillas.length; i++){
         suma += Number(casillas[i])
       }
       console.log('suma', suma)
+      // calculamos si es valido o no
+      total = suma % 10;
+      console.log('cero es valido', total)
+      valido = total == 0;
+      console.log(' la TC es validA?', valido)
     }
+  
+  /*maskify: function Enmascarar (creditCardNumber){
+    var mascara = '#'; 
+    return (''+ creditCardNumber.slice(0, -4).replace(/./g, mascara) + (''+ creditCardNumber.slice(-4)))
+    console.log(Enmascarar(creditCardNumber));
+  }*/
+  
   };
 
 export default validator;
