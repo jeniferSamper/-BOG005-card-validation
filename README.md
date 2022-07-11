@@ -4,13 +4,13 @@ En el `README.md`, cuéntanos cómo pensaste en los usuarios y cuál fue tu proc
 para definir el producto final a nivel de experiencia y de interfaz.
 
 * Quiénes son los principales usuarios de producto.
-  La pagina esta pensada para mostrar promociones de un hotel de playa, donde los usuarios puedan realizar una reserva
+  * La pagina esta pensada para mostrar promociones de un hotel de playa, donde los usuarios puedan realizar una reserva
 
 
 * Cuáles son los objetivos de estos usuarios en relación con tu producto.
-  realizar una reserva del hotel escogiendo las diferentes promociones de temporada, mediante la validacion de una tarjeta de credito.
+  * Realizar una reserva del hotel escogiendo las diferentes promociones de temporada, mediante la validacion de una tarjeta de credito.
 * Cómo crees que el producto que estás creando está resolviendo sus problemas.
-  el producto muestra las promociones del hotel, les permite escoger una fecha y hacer una reserva meidante su tarjeda de credito como medio de pago.
+  *El producto muestra las promociones del hotel, les permite escoger una fecha y hacer una reserva meidante su tarjeda de credito como medio de pago.
 
 * Trabaja tu primer prototipo con papel y lápiz (blanco y negro).
   
@@ -21,6 +21,8 @@ para definir el producto final a nivel de experiencia y de interfaz.
   ([Balsamiq](https://balsamiq.com/), [Figma](https://www.figma.com/),
   [Google Slides](https://www.google.com/intl/es/slides/about/), etc.)
 Estos puntos los presentarás en el `README.md`.
+
+![Prototipo pág principal](https://raw.githubusercontent.com/jeniferSamper/BOG005-card-validation/55550324fa2deb1fa93fbcc0db97da401ac23b13/Presentaci%C3%B3n%20sin%20t%C3%ADtulo.jpg)
 
 ### Scripts / Archivos
 
