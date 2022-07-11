@@ -22,7 +22,7 @@ para definir el producto final a nivel de experiencia y de interfaz.
   [Google Slides](https://www.google.com/intl/es/slides/about/), etc.)
 Estos puntos los presentarás en el `README.md`.
 
-![Prototipo pág principal](https://github.com/jeniferSamper/BOG005-card-validation/blob/main/pag%20principal.png?raw=true)
+![Prototipo pág principal](https://github.com/jeniferSamper/BOG005-card-validation/blob/main/pag%20principal.png)
 
 ### Scripts / Archivos
 
