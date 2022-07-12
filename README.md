@@ -13,7 +13,8 @@ para definir el producto final a nivel de experiencia y de interfaz.
   * El producto muestra las promociones del hotel, les permite escoger una fecha y hacer una reserva meidante su tarjeda de credito como medio de pago.
 
 * Trabaja tu primer prototipo con papel y lápiz (blanco y negro).
-  ![Prototipo a papel 1](hhttps://github.com/jeniferSamper/BOG005-card-validation/blob/main/prototipo%20papel1..jpeg)
+
+  ![Prototipo a papel 1](https://github.com/jeniferSamper/BOG005-card-validation/blob/main/prototipo%20papel1..jpeg)
   ![Prototipo a papel 2](https://github.com/jeniferSamper/BOG005-card-validation/blob/main/prototipo%20papel2..jpeg)
   ![Prototipo a papel 3](https://github.com/jeniferSamper/BOG005-card-validation/blob/main/prototipo%20papel3..jpeg)
 
