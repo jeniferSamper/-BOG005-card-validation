@@ -26,9 +26,15 @@ boton.onclick = function guardar(){
         creditCardNumber = creditCardNumber.value;
         vacio.innerHTML = ('')
         validator.isValid(creditCardNumber);
+        if(validator.isValid(creditCardNumber) == true){
+            vacio.innerHTML =('Su tarjeta es Valida');
+        } else {
+            vacio.innerHTML = ('Su tarjeta es Invalida');
+        }
+        
         validator.maskify(creditCardNumber);
-
     }
+    return false;
 }
 
     
