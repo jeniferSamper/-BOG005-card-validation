@@ -12,16 +12,24 @@
     </header>
     <main>
       <section id="pantalla3">
+        <form>
       <label>verificador tc</label><br><br>
-      <h1 class="datos">Nombre del Titular</h1>
+
+      <label class="datos" for="nombretitular">Nombre del Titular</label>
       <input type="text" id="nombretitular" class="datousuario"><br>
-      <h1 class="datos">Número de Tarjeta de Credito</h1>
-      <input type="number" id="tc" class="datousuario" pattern="0-9"><br>
-      <h1 class="datos">CVV</h1>
-      <input type="text" id="cvv" class="datousuario"><br>
-      <h1 class="datos">Fecha de vencimiento</h1>
-      <input type="text" id="fechav" class="datousuario"><br>
-      <button id="guardar"> guardar </button>
+
+      <label class="datos" for="tc">Número de Tarjeta de Credito</label>
+      <input type="number" id="tc" class="datousuario"><br>
+
+      <label class="datos" for="cvv">CVV</label>
+      <input type="number" id="cvv" class="datousuario"><br>
+
+      <label class="datos" for="fechav">Fecha de Vencimiento</label>
+      <input type="month" id="fechav" class="datousuario"><br>
+
+      <button id="guardar" type="submit"> Validar </button>
+    </form>
+    <div id="vacio"></div><br>
       </section>
     </main>
     <footer></footer>
