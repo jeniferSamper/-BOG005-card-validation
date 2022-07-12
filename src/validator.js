@@ -6,11 +6,11 @@ const validator = {
     var total;
     var valido;
     //guarda el numero en un array y lo invierte.
-    console.log(typeof creditCardNumber)
+    //console.log(typeof creditCardNumber)
     casillas = creditCardNumber.split("");
-    console.log('casillas', casillas)
+    //console.log('casillas', casillas)
     casillas.reverse();
-    console.log('inverto ', casillas);
+    //console.log('inverto ', casillas);
     
     //se multiplica por dos los pares y suma los dos digitos si el numero es mayor a 9.
     for(var i = 1; i< casillas.length ; i +=2){
@@ -23,22 +23,22 @@ const validator = {
       }
       //console.log('array despues de multiplicar',casillas);
       for(var j = 0; j< casillas.length; j++){
-      suma += casillas[j];
+      suma += Number(casillas[j]);
       }
-      console.log('suma', suma)
+      //console.log('suma', suma)
       
       // calculamos si es valido o no
       total = suma % 10;
-     console.log('si es cero es valido: ', total)
+     //console.log('si es cero es valido: ', total)
       valido = total == 0;
-     console.log(' la TC es validA?', valido)
+     //console.log(' la TC es validA?', valido)
      return valido;
     },
 
   maskify: function (creditCardNumber){
     var simbolo = '#'; 
     var mascara = (creditCardNumber.slice(0, -4).replace(/./g, simbolo) + (''+ creditCardNumber.slice(-4)));
-    console.log('dato mascara', mascara);
+    //console.log('dato mascara', mascara);
     return mascara;
   }
   };
