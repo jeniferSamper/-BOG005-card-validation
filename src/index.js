@@ -8,8 +8,7 @@ var nombreTitular = document.getElementById('nombretitular');
 var cvv = document.getElementById('cvv');
 var fechav = document.getElementById('fechav');
 var vacio = document.getElementById('vacio');
-
-
+var resultado1;
 boton.onclick = function guardar(){
     //creditCardNumber = creditCardNumber.value;
     //console.log('el numero de TC es ' + creditCardNumber);
@@ -26,13 +25,16 @@ boton.onclick = function guardar(){
         creditCardNumber = creditCardNumber.value;
         vacio.innerHTML = ('')
         validator.isValid(creditCardNumber);
+        var resultado2 = validator.maskify(creditCardNumber);
         if(validator.isValid(creditCardNumber) == true){
-            vacio.innerHTML =('Su tarjeta es Valida');
+            resultado1 = 'valida'
         } else {
-            vacio.innerHTML = ('Su tarjeta es Invalida');
+            resultado1 = 'invalida'
         }
+        vacio.innerHTML =(' Su tarjeta ' + resultado2 + ' es ' + resultado1);
         
-        validator.maskify(creditCardNumber);
+        
+
 
         
     }
