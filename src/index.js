@@ -36,9 +36,6 @@ boton.onclick = function guardar(){
         mensaje.innerHTML =(' Su tarjeta ' + resultado2 + ' es ' + resultado1);
         
         
-
-
-        
     }
     return false;
 }

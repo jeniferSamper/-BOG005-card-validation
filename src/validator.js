@@ -18,6 +18,7 @@ const validator = {
       else{
         casillas[i]= ((casillas[i] - 5)* 2) + 1;
       }}
+    //suma todos los valores dentro del array.
       casillas.forEach(function(a){suma+=Number(a)})
       
       //calculamos si es valido o no y retorna un booleano.
