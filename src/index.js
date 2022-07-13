@@ -33,6 +33,8 @@ boton.onclick = function guardar(){
         }
         
         validator.maskify(creditCardNumber);
+
+        
     }
     return false;
 }
