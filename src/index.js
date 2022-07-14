@@ -1,10 +1,9 @@
 import validator from './validator.js';
 
 //console.log(validator);
-var opc=document.getElementById('opc');
 
 //esta funcion muestra las opciones a elegir.
-opc.onclick = function MostrarOpciones (){
+ function mostrarOpciones (){
     var opc1=document.getElementById('opc1');
     var opc2=document.getElementById('opc2');
     var selecciona=document.getElementById('selecciona');
@@ -20,9 +19,33 @@ opc.onclick = function MostrarOpciones (){
         selecciona.innerHTML= ('Selecciona una opción');
     }
 }
+var opc=document.getElementById('opc');
+opc.addEventListener('click', mostrarOpciones);
 
-var boton = document.getElementById('guardar');
-boton.onclick = function guardar(){
+//esta función regresa a la pantalla principal
+function regresarP1 (){
+    document.getElementById('pantalla1').style.display = 'block';
+    document.getElementById('pantalla2opc1').style.display = 'none';
+    document.getElementById('pantalla2opc2').style.display = 'none';
+    document.getElementById('pantalla2').style.display= 'none';
+
+}
+var regresar = document.getElementById('regresar');
+regresar.addEventListener('click', regresarP1);
+
+//esta funcion te lleva a reservar y validar la tarjeta
+function irReservar(){
+    document.getElementById('pantalla2opc1').style.display = 'none';
+    document.getElementById('pantalla2opc2').style.display = 'none';
+    document.getElementById('pantalla2').style.display= 'none';
+    document.getElementById('pantalla3').style.display = 'block';
+    document.getElementById('pantallaFinal').style.display = 'block';
+}
+document.getElementById('reservar').addEventListener('click', irReservar);
+
+// esta funcion valida y enmascara la tarjeta
+document.getElementById('guardar').addEventListener('click', guardar1);  
+function guardar1(){
     var creditCardNumber = document.getElementById('tc');
     var nombreTitular = document.getElementById('nombretitular');
     var cvv = document.getElementById('cvv');
@@ -40,6 +63,7 @@ boton.onclick = function guardar(){
     } else if (fechav.value == null || fechav.value == ''){
         mensaje.innerHTML =('Ingresa fecha de vencimiento');
     } else{
+        document.getElementById('pantalla3').style.display = 'none';
         creditCardNumber = creditCardNumber.value;
         mensaje.innerHTML = ('')
         validator.isValid(creditCardNumber);
@@ -54,19 +78,5 @@ boton.onclick = function guardar(){
         
     }
     return false;
-}
-
-var regresar = document.getElementById('regresar');
-regresar.onclick = function (){
-    document.getElementById('pantalla1').style.display = 'block';
-}
-
-var reservar= document.getElementById('reservar');
-reservar.onclick= function (){
-    document.getElementById('pantalla2opc1').style.display = 'none';
-    document.getElementById('pantalla2opc2').style.display = 'none';
-    document.getElementById('pantalla2').style.display= 'none';
-    document.getElementById('pantalla3').style.display = 'block';
-}
-
     
+} 

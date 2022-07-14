@@ -17,6 +17,7 @@ para definir el producto final a nivel de experiencia y de interfaz.
   ![Prototipo a papel 1](https://github.com/jeniferSamper/BOG005-card-validation/blob/main/prototipo%20papel1..jpeg)
   ![Prototipo a papel 2](https://github.com/jeniferSamper/BOG005-card-validation/blob/main/prototipo%20papel2..jpeg)
   ![Prototipo a papel 3](https://github.com/jeniferSamper/BOG005-card-validation/blob/main/prototipo%20papel3..jpeg)
+  
 
 * Luego valida esta solución con una compañera (pedir feedback).
 * Toma lo aprendido al momento de validar tu primer prototipo y desarrolla un
