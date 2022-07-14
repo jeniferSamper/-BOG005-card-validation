@@ -14,24 +14,32 @@
       <section id="pantalla1">
         <h1>Promociones de Temporada</h1>
         <p>Te invitamos a escoger la promoción que mas te guste.</p>
-        <input type="radio" id="opc1" name="promocion" value="opc1">
-        <input type="radio" id="opc2" name="promocion" value="opc2">
+        <input type="radio" id="opc1" name="promocion" >
+        <label for="opc1">Promoción 1</label>
+        <input type="radio" id="opc2" name="promocion" >
+        <label for="opc2">Promoción 2</label>
         <button id="opc">Continuar</button>
+        <div id="selecciona"></div>
       </section>
-      <section id="pantalla2opc1">
+
+      <section id="pantalla2opc1" style="display:none">
       <h1>Tu viaje en grupo</h1>
       <p>Te invitamos a hacer tu viaje en grupo (de 5 a 20 personas), tenemos los mejores planes de actividades</p>
       </section>
-      <section id="pantalla2opc2">
+
+      <section id="pantalla2opc2" style="display:none">
         <h1>Tu viaje en pareja</h1>
       <p>Te invitamos a hacer tu viaje con tu pareja, tenemos los mejores planes romanticos y de actividades en toda la región</p>
       </section>
-      <section id="pantalla2">
+
+      <section id="pantalla2" style="display:none">
       <label for="fechaReserva">Fecha de reserva: </label>
       <input type="date" id="fechaReserva"><br>
       <button id="reservar">Reservar</button>
+      <button id="regresar">Regresar</button>
       </section>
-      <section id="pantalla3">
+
+      <section id="pantalla3" style="display:none">
         <form id="formulario">
       <label>verificador tc</label><br><br>
 
@@ -49,8 +57,10 @@
 
       <button id="guardar" type="submit" > Validar </button>
     </form>
-    <div id="mensaje"></div><br>
-    
+      </section>
+      
+      <section id="pantallaFinal" style="display:none">
+        <div id="mensaje"></div><br>
       </section>
     </main>
     <footer></footer>
