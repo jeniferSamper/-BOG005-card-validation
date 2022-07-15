@@ -1,13 +1,61 @@
-html, body {
-    height: 100%;
-    width: 100%;
-  }
+*{margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  #cvv {
-    width: 3em;
-  }
-  #tc {
-    width: 19em;
-  }
+header {
+  background: url(https://thumbs.dreamstime.com/b/nube-larga-en-el-cielo-foto-panor%C3%A1mica-15121573.jpg);
+height: 150px; 
+  background-size: cover;
+  text-align: center;
+}
+
+#titulo {
+  display: inline-block; /*no ocupe todo el ancho */
+  position: relative; /* esto nos permite mover las rayas */
+  font-family: 'Dancing Script', cursive;
+  text-shadow: white 5px 3px 4px; /*sombreado*/
+  font-size: 8vw;
+  margin: 20px;
+}
+#titulo::after,#titulo::before{
+  content: '';
+  position: absolute;
+  width: 120px; 
+  height: 3px;
+  background-color: currentColor;
+  top: 0.6em; /*centra las lineas a la altura de las letras*/
+  transform: scale(1);
+  transition: all 0.6s ease-in;
+}
+#titulo:hover::before , #titulo:hover::after{
+  transform: scale(0);
+}
+#titulo::before{
+  left: -140px;
+}
+#titulo::after{
+  right: -140px;
+}
+
+main{
+  background: linear-gradient(to bottom, #038BBA, white, #FCF8C3) ;
+  min-height: 100vh;
+  font-family: 'Edu SA Beginner', cursive;
+  text-align:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 3em;
+  text-transform: capitalize;
+  /*box-sizing: border-box;*/
+  margin: 25px;
+  transform: translateY(-200%);
+}
+
+
+
 
   
