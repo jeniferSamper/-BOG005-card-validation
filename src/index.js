@@ -19,8 +19,7 @@ import validator from './validator.js';
         selecciona.innerHTML= ('Selecciona una opción');
     }
 }
-var opc=document.getElementById('opc');
-opc.addEventListener('click', mostrarOpciones);
+document.getElementById('opc').addEventListener('click', mostrarOpciones);
 
 //esta función regresa a la pantalla principal
 function regresarP1 (){
@@ -28,10 +27,10 @@ function regresarP1 (){
     document.getElementById('pantalla2opc1').style.display = 'none';
     document.getElementById('pantalla2opc2').style.display = 'none';
     document.getElementById('pantalla2').style.display= 'none';
+    document.getElementById('pantalla3').style.display= 'none';
 
 }
-var regresar = document.getElementById('regresar');
-regresar.addEventListener('click', regresarP1);
+document.getElementById('regresar').addEventListener('click', regresarP1);
 
 //esta funcion te lleva a reservar y validar la tarjeta
 function irReservar(){
@@ -44,7 +43,6 @@ function irReservar(){
 document.getElementById('reservar').addEventListener('click', irReservar);
 
 // esta funcion valida y enmascara la tarjeta
-document.getElementById('guardar').addEventListener('click', guardar1);  
 function guardar1(){
     var creditCardNumber = document.getElementById('tc');
     var nombreTitular = document.getElementById('nombretitular');
@@ -80,3 +78,5 @@ function guardar1(){
     return false;
     
 } 
+document.getElementById('guardar').addEventListener('click', guardar1);  
+document.getElementById('regresar2').addEventListener('click', regresarP1)

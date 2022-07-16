@@ -39,20 +39,31 @@ height: 150px;
 }
 
 main{
-  background: linear-gradient(to bottom, #038BBA, white, #FCF8C3) ;
+  /*background: linear-gradient(to bottom, #038BBA, white, #FCF8C3) ;*/
+  background: rgb(255, 254, 239);
   min-height: 100vh;
   font-family: 'Edu SA Beginner', cursive;
   text-align:center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /*display: flex;
+  justify-content: space-around;
+  align-items: center;*/
 }
 h1 {
   font-size: 3em;
   text-transform: capitalize;
   /*box-sizing: border-box;*/
-  margin: 25px;
-  transform: translateY(-200%);
+  /*margin: 25px;*/
+  /*transform: translateY(-200%);*/
+}
+
+button {
+  background-color: rgb(87, 159, 241);
+  color:white;
+  border-radius: 35px;
+  border-color: blue;
+  border-width: 2px;
+  width:100px;
+  height:25px;
 }
 
 
