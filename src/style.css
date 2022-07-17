@@ -8,6 +8,8 @@ header {
 height: 150px; 
   background-size: cover;
   text-align: center;
+  border-bottom: 3px;
+  border-style: solid;
 }
 
 #titulo {
@@ -39,21 +41,16 @@ height: 150px;
 }
 
 main{
-  /*background: linear-gradient(to bottom, #038BBA, white, #FCF8C3) ;*/
   background: rgb(255, 254, 239);
   min-height: 100vh;
   font-family: 'Edu SA Beginner', cursive;
   text-align:center;
-  /*display: flex;
-  justify-content: space-around;
-  align-items: center;*/
+  
 }
+
 h1 {
   font-size: 6vw;
-  text-transform: capitalize;
-  /*box-sizing: border-box;*/
-  /*margin: 25px;*/
-  /*transform: translateY(-200%);*/
+  text-transform: capitalize; /*letra mayuscula*/
 }
 
 button {
@@ -66,16 +63,52 @@ button {
   height:25px;
 }
 
-.p1, .p2{
+.p1, .p2, .datos{
   font-size: 3vw;
 }
 
-#selecciona {
+#selecciona, #mensaje{
   color: blue;
   font-size: 2vw;
 }
+#mensaje2 {
+  padding: 200px;
+  text-transform: capitalize;
+  color: blue;
+  font-size: 4vw;
+}
 
+.foto {
+  width: 25vw;
+  height: 25vw;
+  border-style: double;
+  border-width: 10px;
+  border-color: rgb(87, 159, 241);
+  border-radius: 35px;
+  margin-right: 35px;
+}
 
+footer{
+  background: url(https://w0.peakpx.com/wallpaper/472/752/HD-wallpaper-seashells-and-starfish-on-the-sand-seashells-seashell-sand-shell-starfishes-shells-starfish.jpg);
+  height: 150px; 
+  background-size: cover;
+  border: 3px;
+  border-style:solid;
+}
 
+#pieDePag{
+  font-size: 4vw;
+  font-family: 'Edu SA Beginner', cursive;
+  margin-left: 15px;
+}
 
-  
+.logoContacto {
+  width: 6vw;
+  height: 6vw;
+  border-radius: 50px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+  margin-right: 35px;
+  margin-left: 15px;
+}

@@ -28,6 +28,7 @@ function regresarP1 (){
     document.getElementById('pantalla2opc2').style.display = 'none';
     document.getElementById('pantalla2').style.display= 'none';
     document.getElementById('pantalla3').style.display= 'none';
+    document.getElementById('pantallaFinal').style.display = 'none';
 
 }
 document.getElementById('regresar').addEventListener('click', regresarP1);
@@ -38,7 +39,7 @@ function irReservar(){
     document.getElementById('pantalla2opc2').style.display = 'none';
     document.getElementById('pantalla2').style.display= 'none';
     document.getElementById('pantalla3').style.display = 'block';
-    document.getElementById('pantallaFinal').style.display = 'block';
+    document.getElementById('pantallaFinal').style.display = 'none';
 }
 document.getElementById('reservar').addEventListener('click', irReservar);
 
@@ -71,7 +72,8 @@ function guardar1(){
         } else {
             resultado1 = 'invalida'
         }
-        mensaje.innerHTML =(' Su tarjeta ' + resultado2 + ' es ' + resultado1);
+        document.getElementById('pantallaFinal').style.display='block'
+        mensaje2.innerHTML =(' Su tarjeta ' + resultado2 + ' es ' + resultado1);
         
         
     }
