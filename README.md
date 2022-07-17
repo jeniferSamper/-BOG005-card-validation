@@ -43,4 +43,11 @@ Debe contener lo siguiente:
   * el proyecto se encarga de sitio web que muestra las promociones del hotel y permite al usuario reservar un paquete por medio de la validacion de tarjeta de credito como medio de pago.
 * La imagen final de tu proyecto.
 
+![Vista Final 1](https://raw.githubusercontent.com/jeniferSamper/BOG005-card-validation/main/imagenes/vista%20final%201.jpg)
+
+![Vista Final 2](https://raw.githubusercontent.com/jeniferSamper/BOG005-card-validation/main/imagenes/vista%20final%202.jpg)
+
+![Vista Final 3](https://raw.githubusercontent.com/jeniferSamper/BOG005-card-validation/main/imagenes/vista%20final%203.jpg)
+
+
 
