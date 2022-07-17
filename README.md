@@ -14,9 +14,9 @@ para definir el producto final a nivel de experiencia y de interfaz.
 
 * Trabaja tu primer prototipo con papel y lápiz (blanco y negro).
 
-  ![Prototipo a papel 1](https://github.com/jeniferSamper/BOG005-card-validation/blob/main/prototipo%20papel1..jpeg)
-  ![Prototipo a papel 2](https://github.com/jeniferSamper/BOG005-card-validation/blob/main/prototipo%20papel2..jpeg)
-  ![Prototipo a papel 3](https://github.com/jeniferSamper/BOG005-card-validation/blob/main/prototipo%20papel3..jpeg)
+  ![Prototipo a papel 1](https://github.com/jeniferSamper/BOG005-card-validation/blob/main/imagenes/prototipo%20papel1..jpeg)
+  ![Prototipo a papel 2](https://github.com/jeniferSamper/BOG005-card-validation/blob/main/imagenes/prototipo%20papel2..jpeg)
+  ![Prototipo a papel 3](https://github.com/jeniferSamper/BOG005-card-validation/blob/main/imagenes/prototipo%20papel3..jpeg)
   
 
 * Luego valida esta solución con una compañera (pedir feedback).
@@ -26,9 +26,9 @@ para definir el producto final a nivel de experiencia y de interfaz.
   [Google Slides](https://www.google.com/intl/es/slides/about/), etc.)
 Estos puntos los presentarás en el `README.md`.
 
-![Prototipo pág principal](https://github.com/jeniferSamper/BOG005-card-validation/blob/main/prototipo%20pag1..png)
-![Prototipo pág 2](https://github.com/jeniferSamper/BOG005-card-validation/blob/main/prototipo%20pag2..png)
-![Prototipo pág 3](https://github.com/jeniferSamper/BOG005-card-validation/blob/main/prototipo%20pag3..png)
+![Prototipo pág principal](https://github.com/jeniferSamper/BOG005-card-validation/blob/main/imagenes/prototipo%20pag1..png)
+![Prototipo pág 2](https://github.com/jeniferSamper/BOG005-card-validation/blob/main/imagenes/prototipo%20pag2..png)
+![Prototipo pág 3](https://github.com/jeniferSamper/BOG005-card-validation/blob/main/imagenes/prototipo%20pag3..png)
 
 ### Scripts / Archivos
 
