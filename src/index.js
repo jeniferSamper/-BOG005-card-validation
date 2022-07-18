@@ -53,7 +53,7 @@ function guardar1(){
     var mensaje2 = document.getElementById('mensaje2');
     var resultado1;
     var resultado2;
-    
+    //para verificar que cada campo tenga un valor
     if (nombreTitular.value == null || nombreTitular.value == ''){
         mensaje.innerHTML = ('Ingresa nombre de titular');
     } else if(creditCardNumber.value == null || creditCardNumber.value == ''){
