@@ -50,6 +50,7 @@ function guardar1(){
     var cvv = document.getElementById('cvv');
     var fechav = document.getElementById('fechav');
     var mensaje = document.getElementById('mensaje');
+    var mensaje2 = document.getElementById('mensaje2');
     var resultado1;
     var resultado2;
     
