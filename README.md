@@ -12,19 +12,7 @@ para definir el producto final a nivel de experiencia y de interfaz.
 * Cómo crees que el producto que estás creando está resolviendo sus problemas.
   * El producto muestra las promociones del hotel, les permite escoger una fecha y hacer una reserva meidante su tarjeda de credito como medio de pago.
 
-* Trabaja tu primer prototipo con papel y lápiz (blanco y negro).
-
-  ![Prototipo a papel 1](https://github.com/jeniferSamper/BOG005-card-validation/blob/main/imagenes/prototipo%20papel1..jpeg)
-  ![Prototipo a papel 2](https://github.com/jeniferSamper/BOG005-card-validation/blob/main/imagenes/prototipo%20papel2..jpeg)
-  ![Prototipo a papel 3](https://github.com/jeniferSamper/BOG005-card-validation/blob/main/imagenes/prototipo%20papel3..jpeg)
-  
-
-* Luego valida esta solución con una compañera (pedir feedback).
-* Toma lo aprendido al momento de validar tu primer prototipo y desarrolla un
-  nuevo prototipo usando alguna herramienta para diseño de prototipos
-  ([Balsamiq](https://balsamiq.com/), [Figma](https://www.figma.com/),
-  [Google Slides](https://www.google.com/intl/es/slides/about/), etc.)
-Estos puntos los presentarás en el `README.md`.
+* Trabaja tu primer prototipo 
 
 ![Prototipo pág principal](https://github.com/jeniferSamper/BOG005-card-validation/blob/main/imagenes/prototipo%20pag1..png)
 ![Prototipo pág 2](https://github.com/jeniferSamper/BOG005-card-validation/blob/main/imagenes/prototipo%20pag2..png)
